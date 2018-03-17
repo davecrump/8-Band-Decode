@@ -3,6 +3,8 @@
     __config H'2007', 0x23F4
     __config H'2008', 0X3FFF
 
+   ERRORLEVEL -302
+
 ; CONFIG1
 
 ; 15 0 not used
