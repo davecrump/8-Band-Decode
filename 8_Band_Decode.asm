@@ -1,7 +1,7 @@
 
     #include p16f883.inc
     __config H'2007', 0x23F4
-    __config H'2008', 0X3FFF
+    __config H'2008', 0X3EFF
 
    ERRORLEVEL -302
 
@@ -32,7 +32,7 @@
 ; 11 not used
 ; 10 1 Flash write protection off
 ; 9  1 Flash write protection off
-; 8  1 Brown-out Reset set to 4.0V    F
+; 8  0 Brown-out Reset set to 2.1V    E
 
 ; 7 - 4 not used                      F
 
